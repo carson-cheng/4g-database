@@ -1,3 +1,11 @@
+//Unlike the canonical version of popseq.c, this version prints out all RLEs it generates without accepting an input pattern.
+//The original version of popseq.c can be found as a zip file at https://conwaylife.com/forums/viewtopic.php?p=43319#p43319
+//It was run for slightly more than 2 minutes to generate the RLEs needed for the database. If it is run to completion, the database will be much larger.
+
+//Compile this file with "g++ -O3 popseq.c -o popseq"
+//Run this file with "./popseq > filename.txt" to pipe the printed RLEs to a file, where you can modify the filename based on your favors.
+//Note that the quotation marks only signal the location of the commands above, and should not be included when running the command.
+
 #include "LifeAPI.h"
 #include <cstring>
 
